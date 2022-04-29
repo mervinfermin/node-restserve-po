@@ -19,8 +19,8 @@ if (process.env.NODE_ENV === 'dev') {
 } else {
 
     //urlDB = 'mongodb://fama:cV476m4cfn6PvlTC@cluster0.670ig.mongodb.net/cafe';
-    urlDB = 'mongodb+srv://fama:cV476m4cfn6PvlTC@cluster0.670ig.mongodb.net/cafe?retryWrites=true&w=majority';
-
+    //urlDB = 'mongodb+srv://fama:cV476m4cfn6PvlTC@cluster0.670ig.mongodb.net/cafe?retryWrites=true&w=majority';
+    urlDB = process.env.MONGO_URI;
 }
 process.env.URLDB = urlDB;
 
