@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb://127.0.0.1:27017/cafe';
 } else {
 
-    urlDB = 'mongodb://fama:cV476m4cfn6PvlTC@cluster0.670ig.mongodb.net/cafe';
+    //urlDB = 'mongodb://fama:cV476m4cfn6PvlTC@cluster0.670ig.mongodb.net/cafe';
     urlDB = 'mongodb+srv://fama:cV476m4cfn6PvlTC@cluster0.670ig.mongodb.net/cafe?retryWrites=true&w=majority';
 
 }
